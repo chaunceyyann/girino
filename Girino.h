@@ -81,7 +81,7 @@ void error (void);
 void fillBuffer( \
 	char *buffer, \
 	byte bufferSize, \
-	HardwareSerial::HardwareSerial* serial = &Serial );
+	HardwareSerial* serial = &Serial );
 void printStatus(void);
 
 //-----------------------------------------------------------------------------
